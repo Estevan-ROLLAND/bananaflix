@@ -1,1 +1,37 @@
-# bananaflix
+# BananaFlix
+
+Projet réalisé de Février à Mars 2026 dans le cadre du projet de fin de 4e semestre du BUT Informatique.
+
+### Equipe :
+| NOM | Prénom |
+|--------|-----------------|
+| ROLLAND | Estevan |
+| VANNIER | Kyo |
+| CAPDEVILLE| Maël |
+
+## Projet SAÉ 4 - R4.11 Dév. mobile
+
+Le but de cette SAÉ est de développer une application Android native (*déployable sur une machine de l'iut*) par sous-équipe de projet SAÉ (2-3 étudiants ; normalement 2 sous-équipes par équipe de SAÉ).
+Cette application devra :
+
+- récupérer des données sur `https://www.themoviedb.org/` ;
+- proposer (à minima) trois vues différentes (une page de recherche/paramétrage, une page d'affichage dans une `LazyList`, une page "vue détaillée", ...) ;
+- compter au moins deux activités avec passage de données entre elles ;
+- comporter des classes de données (`Film`, ...) correspondant à la partie modèle de votre application ;
+- afficher des images téléchargées dynamiquement ;
+- mettre en oeuvre les bonnes pratiques vues en TP : UDF, séparation des couches : Ui et ViewModel, données, ...
+
+De plus, votre application pourra démontrer l'usage d'*aspects* du développement android non-abordés dans les tutoriels. Quelques exemples : 
+
+- tri, filtrage, pagination des résultats ;
+- basculement portait/paysage ;
+- gestion des locales (EN, FR) ; 
+- persistance des données ;
+- etc.
+
+Votre application s’appuiera sur l'api `https://developer.themoviedb.org/reference/intro/getting-started` (documentation `https://developer.themoviedb.org/docs/getting-started`). Pour utiliser cette API, il vous faudra préalablement obtenir une clé.
+
+Voici une proposition de maquette mais vous pouvez en concevoir une autre.
+![](img/movies.png)
+
+Les bibliothèques autorisées, sont celles utilisées en TD ou citées en cours : `ktor`, `kotlinx-serialization`, `kotlin-parcelize` et `coil`.
